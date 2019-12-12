@@ -9,4 +9,5 @@ import (
 func Gomod2Func() {
 	fmt.Println("call Gomod2Func")
 	gomod1.Gomod1Func()
+
 }
