@@ -1,9 +1,12 @@
 package gomod2
 
 import (
+	"fmt"
+
 	"github.com/peanutgyz/gomod1"
 )
 
-func Gomod1Func() {
+func Gomod2Func() {
+	fmt.Println("call Gomod2Func")
 	gomod1.Gomod1Func()
 }
